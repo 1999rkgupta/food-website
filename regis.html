@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./food.css">
+    <link rel="icon" type="icon" href="./favicon.ico" />
+
+</head>
+
+<body>
+    <section id="navbar">
+        <article>
+            <div class="menuBlock blockLogo">
+                <h1><a href="./food.html"><img style="height: 78px; width: 100px;" src="./logo.jpg" alt=""></a></h1>
+            </div>
+            <div class="menuBlock blockSearch">
+                <input type="search" name="" id="" placeholder="Search"
+                    style="height: 35px;width:400px;border-radius: 6px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor" class="bi-bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </div>
+            <div class="menuBlock blockAuth">
+                <ul>
+                    <li><a href="food.html">HOME</a></li>
+
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="regis.html" class="active">Register</a></li>
+                </ul>
+            </div>
+        </article>
+    </section>
+
+    <div class="reg">
+        <h2 id="register">
+            <!-- <h1>Register</h1> -->
+            <form id="regBlock">
+                <fieldset>
+                    <legend>Register Here</legend>
+
+                    <div class="container" style="text-align:center">
+                        <label>Full Name : &nbsp; &nbsp;</label>
+                        <input type="text" placeholder="Enter Full Name" name="username" required autocomplete="none"
+                            autofocus style="width:400px">
+                        <br>
+                        <label>Enter Email : </label>
+                        <input type="email" placeholder="Enter Your Email" name="email" required style="width:400px">
+                        <br>
+                        <label>Mobile No. :&nbsp;&nbsp; </label>
+                        <input type="tel" placeholder="Enter Your Mobile Number" name="number" style="width:400px">
+                        <!-- <br><label>Enter State : &nbsp; </label>
+                        <input type="text" placeholder="Enter State Name" name="statename" style="width:400px"> -->
+                        <br>
+                        <button type="register"
+                            style="width:120px; color: white;font-weight: bold;font-size: 16px;">Register</button>
+
+                        <button type="reset" class="reset"> Reset</button>
+                    </div>
+                </fieldset>
+            </form>
+        </h2>
+    </div>
+
+    <section id="footer">
+        <div class="social">
+            <ul>
+                <li><a href="" class="anc">FACEBOOK</a></li>
+                <li><a href="" class="anc">TWITTER</a></li>
+                <li><a href="" class="anc">YOUTUBE</a></li>
+                <li><a href="" class="anc">INSTAGRAM</a></li>
+                <li><a href="">pinterest</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p>Copyright 2020 Food Blog Co. | Design: <a href="#">demo.com</a>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./food.css">
+    <link rel="icon" type="icon" href="./favicon.ico" />
+
+</head>
+
+<body>
+    <section id="navbar">
+        <article>
+            <div class="menuBlock blockLogo">
+                <h1><a href="./food.html"><img style="height: 78px; width: 100px;" src="./logo.jpg" alt=""></a></h1>
+            </div>
+            <div class="menuBlock blockSearch">
+                <input type="search" name="" id="" placeholder="Search"
+                    style="height: 35px;width:400px;border-radius: 6px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" fill="currentColor" class="bi-bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg>
+            </div>
+            <div class="menuBlock blockAuth">
+                <ul>
+                    <li><a href="food.html">HOME</a></li>
+
+                    <li><a href="login.html" class="active">LOGIN</a></li>
+                    <li><a href="regis.html">Register</a></li>
+                </ul>
+            </div>
+        </article>
+    </section>
+    <form class="loginBlock">
+        <fieldset>
+            <legend>Login Here</legend>
+
+            <div class="container" style="text-align:center">
+                <label for="username">Username : </label>
+                <input type="text" placeholder="Enter Username" id="username" name="username" required
+                    autocomplete="none" autofocus style="width:400px">
+                <br>
+                <label for="password">Password : </label>
+                <input type="password" placeholder="Enter Password" id="password" name="password" required
+                    style="width:400px">
+
+                <br>
+                <button type="submit" style="width:150px;font-size: 18px;color: white;;margin-top: 3%;">LOGIN</button>
+                <br>
+                <!-- <input type="checkbox" checked="checked" aria-checked=""> Remember me <br> -->
+                <!-- <button type="button" class="cancelbtn"> <a href="./food.html"
+                        style="font-size:18px ;text-decoration:none;color: white;">HOME</a></button> -->
+                <!-- <a href="#"> forgot password? </a> -->
+            </div>
+        </fieldset>
+    </form>
+    <section id="footer">
+        <div class="social">
+            <ul>
+                <li><a href="" class="anc">FACEBOOK</a></li>
+                <li><a href="" class="anc">TWITTER</a></li>
+                <li><a href="" class="anc">YOUTUBE</a></li>
+                <li><a href="" class="anc">INSTAGRAM</a></li>
+                <li><a href="">pinterest</a></li>
+            </ul>
+        </div>
+        <div class="copy">
+            <p>Copyright 2020 Food Blog Co. | Design: <a href="#">demo.com</a>
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>
